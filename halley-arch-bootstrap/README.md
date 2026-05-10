@@ -17,7 +17,7 @@ This repo automates a conservative Arch Linux setup for Halley with GPU detectio
 Run this from a fresh Arch install after the base system is up:
 
 ```bash
-git clone https://github.com/YOURNAME/halley-arch-bootstrap.git
+git clone https://github.com/MateoBourguignon/halley-arch-bootstrap.git
 ```
 ```bash
 cd halley-arch-bootstrap
