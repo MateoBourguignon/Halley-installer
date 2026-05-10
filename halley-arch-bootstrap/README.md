@@ -18,11 +18,16 @@ Run this from a fresh Arch install after the base system is up:
 
 ```bash
 git clone https://github.com/YOURNAME/halley-arch-bootstrap.git
+```
+```bash
 cd halley-arch-bootstrap
+```
+```bash
 chmod +x install.sh scripts/*.sh
+```
+```bash
 ./install.sh
 ```
-
 ## Notes
 
 - The repo intentionally avoids inventing Halley configuration syntax.
