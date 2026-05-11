@@ -23,6 +23,9 @@ sudo pacman -Syu --noconfirm
 log "Installing base dependencies"
 sudo pacman -S --noconfirm git base-devel rustup seatd
 
+log "Initializing Rust"
+rustup default stable
+
 log "Detecting GPU"
 GPU="$("$SCRIPT_DIR/scripts/detect_gpu.sh")"
 echo "$GPU" | tee "$STATE_DIR/gpu.txt" >/dev/null
